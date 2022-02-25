@@ -1,0 +1,33 @@
+body {
+  background-color: #489fb5;
+  list-style-position: inside;
+  padding: 3%;
+}
+
+#nome {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-align: center;
+}
+
+div .description p {
+  font-family: Georgia, "Times New Roman", Times, serif;
+position: absolute;
+right: 300px;
+top: 100px;
+}
+
+#foto {
+  float: left;
+  height: 280px;
+  padding: 10px;
+  background-color: blue;
+}
+
+.description {
+  height: 300px;
+  position: relative;
+}
+
+ul li:nth-child(odd) {
+    color: white;
+}
